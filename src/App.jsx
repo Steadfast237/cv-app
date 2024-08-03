@@ -130,7 +130,12 @@ function App() {
           >
             Save
           </button>
-          <button type="button">Download</button>
+          <button
+            type="button"
+            onClick={() => alert('Not yet implemented, feeling lazy')}
+          >
+            Download
+          </button>
           <button type="button" onClick={() => loadExample()}>
             Cv example
           </button>
