@@ -1,0 +1,109 @@
+{
+  "personalInformation": {
+    "fullName": "John Doe",
+    "title": "Software Engineer",
+    "email": "john.doe@example.com",
+    "phone": "+1 123 456 7890",
+    "address": "123 Main Street, New York, NY, USA",
+    "linkedin": "https://www.linkedin.com/in/johndoe",
+    "website": "https://johndoe.dev",
+    "dateOfBirth": "1990-05-15",
+    "nationality": "American"
+  },
+
+  "summary": "Experienced Software Engineer with a strong background in full-stack web development, cloud computing, and team leadership. Passionate about building scalable software and delivering user-focused solutions.",
+
+  "skills": [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "REST APIs",
+    "SQL/NoSQL Databases",
+    "AWS",
+    "Git",
+    "Agile/Scrum"
+  ],
+
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Native"
+    },
+    {
+      "language": "Spanish",
+      "proficiency": "Professional Working Proficiency"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "University of California, Berkeley",
+      "startDate": "2008-09-01",
+      "endDate": "2012-06-15",
+      "location": "Berkeley, CA, USA",
+      "honors": "Magna Cum Laude"
+    }
+  ],
+  "experience": [
+    {
+      "jobTitle": "Senior Software Engineer",
+      "company": "Tech Solutions Inc.",
+      "startDate": "2020-01-01",
+      "endDate": "Present",
+      "location": "San Francisco, CA, USA",
+      "responsibilities": [
+        "Led a team of 5 developers in building cloud-native web applications.",
+        "Designed and implemented REST APIs with Node.js and Express.",
+        "Optimized front-end performance using React and Redux.",
+        "Collaborated with DevOps for CI/CD pipelines using GitHub Actions and AWS."
+      ]
+    },
+    {
+      "jobTitle": "Software Engineer",
+      "company": "WebWorks LLC",
+      "startDate": "2015-06-01",
+      "endDate": "2019-12-31",
+      "location": "New York, NY, USA",
+      "responsibilities": [
+        "Built and maintained internal tools using Angular and Django.",
+        "Wrote unit and integration tests, improving code coverage to 90%.",
+        "Participated in agile ceremonies and cross-functional team projects."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services",
+      "date": "2021-08-01"
+    },
+    {
+      "name": "Scrum Master Certified (SMC)",
+      "issuer": "Scrum Alliance",
+      "date": "2019-03-15"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Personal Portfolio Website",
+      "description": "Responsive web portfolio showcasing projects and skills. Built with React and hosted on Netlify.",
+      "technologies": ["React", "Netlify", "SASS"],
+      "url": "https://johndoe.dev"
+    },
+    {
+      "name": "Task Manager App",
+      "description": "A full-stack task management application with authentication and real-time collaboration features.",
+      "technologies": ["Node.js", "MongoDB", "Socket.IO"],
+      "url": "https://github.com/johndoe/task-manager"
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Smith",
+      "position": "Engineering Manager",
+      "company": "Tech Solutions Inc.",
+      "email": "jane.smith@techsolutions.com",
+      "phone": "+1 987 654 3210"
+    }
+  ]
+}
