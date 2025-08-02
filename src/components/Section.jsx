@@ -1,6 +1,7 @@
+import { cloneElement } from "react";
 import { useCv } from "../CvContext";
 
-function Section({ title, name, children }) {
+function Section({ name, children }) {
   const { state, dispatch } = useCv();
 
   const show = state.activeSection === name;
@@ -12,11 +13,12 @@ function Section({ title, name, children }) {
   return (
     <div className="section">
       <h3>
-        <span>{title}</span>
+        {cloneElement(children[0], { show })}
+
         <button onClick={handleToggle}>{show ? "Close" : "Open"}</button>
       </h3>
 
-      {show && children}
+      {show && children[1]}
     </div>
   );
 }

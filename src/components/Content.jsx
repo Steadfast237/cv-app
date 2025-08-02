@@ -9,6 +9,7 @@ import FormEducation from "./forms/FormEducation";
 import FormExperience from "./forms/FormExperience";
 import FormProject from "./forms/FormProject";
 import FormTechnical from "./forms/FormTechnical";
+import SectionTitle from "../ui/SectionTitle";
 
 function Content() {
   const { dispatch, state } = useCv();
@@ -40,23 +41,28 @@ function Content() {
           </button>
         </div>
 
-        <Section name={"personal"} title={"personal details"}>
+        <Section name={"personal"}>
+          <SectionTitle defaultTitle="Personal details" />
           <FormPersonal />
         </Section>
 
-        <Section name={"education"} title={"educations"}>
+        <Section name={"education"}>
+          <SectionTitle defaultTitle="Educations" />
           <FormEducation />
         </Section>
 
-        <Section name={"experience"} title={"experiences"}>
+        <Section name={"experience"}>
+          <SectionTitle defaultTitle="Experiences" />
           <FormExperience />
         </Section>
 
-        <Section name={"project"} title={"projects"}>
+        <Section name={"project"}>
+          <SectionTitle defaultTitle="Projects" />
           <FormProject />
         </Section>
 
-        <Section name={"technical"} title={"technical skills"}>
+        <Section name={"technical"}>
+          <SectionTitle defaultTitle="Technical skills" />
           <FormTechnical />
         </Section>
       </Sections>
